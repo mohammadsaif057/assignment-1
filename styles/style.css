@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kavoon', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+}
+body {
+    background-image: url(../assets/bgimage.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+nav div img {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+nav div ul li a {
+    color: greenyellow;
+    text-decoration: none;
+}
+nav div ul li a:hover{
+    text-decoration: underline;
+    color: hotpink;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 4px 25px;
+    position: relative;
+    top: 2px;
+    left: 350px;
+    border: red;
+    margin-top: 30px;
+}
+.btn1 a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn1:hover{
+    background-color: maroon
+}
+h1{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 80px;
+    font-weight: 900px;
+    position: relative;
+    top: 50px;
+    line-height: 100px;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    background-color: yellowgreen;
+    border: yellowgreen;
+}
+.btn2 a{
+    color: white;
+    font-weight: 600px;
+    text-decoration: none;
+    font-size: 25px;
+}.btn2:hover{
+    background-color: darkgoldenrod;
+}
+.btn2 a:hover{
+    background-color: darkgoldenrod;
+    text-decoration: underline;
+}
+footer{
+    height: 170px;
+    width: 170px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
